@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .landingcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+  }
+  .left_side {
+    padding: 0px 100px;
+  }
+  
+  .right_side {
+    padding: 0px 100px;
+    text-align: center;
+    color: green;
+  }
+  button {
+    margin-top: 10px;
+    width: 60%;
+    padding: 0.5rem 1rem;
+    color: green;
+    font-weight: 700;
+    font-size: large;
+    border: 1px solid green;
+    border-radius: 8px;
+  }
+  span {
+    text-decoration: none;
+    color: brown;
+  }
+  button:hover {
+    background-color: rgb(203, 203, 203);
+  }
+  button:active {
+    background-color: rgb(218, 218, 218);
+  }
+  
